@@ -1,0 +1,204 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom right, rgb(0, 123, 255), rgb(206, 8, 206));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero {
+
+  padding-block: 150px;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+.hero-inner {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.reg-title {
+  margin-block: 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.reg-form-inner {
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+  column-gap: 20px;
+}
+
+.reg-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.register-inp {
+  /* display: inline-block; */
+  width: 260px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: rgb(207, 204, 204);
+  margin-bottom: 25px;
+}
+
+.sign-up-btn,
+.sign-in-btn {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, rgb(0, 123, 255), rgb(206, 8, 206));
+  cursor: pointer;
+}
+
+.sign-up-btn:hover,
+.sign-in-btn:hover {
+  background-image: linear-gradient(to bottom right, rgb(3, 101, 206), rgb(156, 5, 156));
+
+}
+/* LOGIN */
+
+.login-hero {
+  padding-block: 140px;
+}
+.login-hero-inner {
+  width: 450px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.login-title {
+  margin-block: 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.login-inp {
+  margin-bottom: 20px;
+  padding:10px;
+  border-radius: 5px;
+  border-color: rgb(207, 204, 204);
+  margin-bottom: 25px;
+}
+.sign-in-btn {
+  margin-bottom: 20px;
+}
+
+.login-link {
+  text-decoration-line: none;
+  /* display: block;
+  text-align: right; */
+}
+
+
+/* TODO  */
+
+.site-header {
+  border-bottom: 1px solid purple;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+
+}
+.todo-hero-inner {
+  padding-block: 50px;
+}
+
+.todo-title {
+  margin-block: 0;
+}
+.log-out-btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: brown;
+}
+.todo-form {
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.todo-inp {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid  rgb(12, 12, 12);
+  margin-right: 10px;
+}
+.todo-btn {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: #fff;
+}
+
+.todo-list {
+  margin: 0 auto;
+  width: 500px;
+  background-image: linear-gradient(to bottom right, rgb(97, 171, 251), rgb(236, 132, 236));
+  border-radius: 10px;
+  padding: 30px;
+}
+.todo-list-info-wrapper {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.todo-item {
+  width: 300px;
+}
+.edit-todo, .remove-todo {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+.edit-todo {
+  background-color: rgb(218, 218, 2);
+}
+.remove-todo {
+  background-color: red;
+}

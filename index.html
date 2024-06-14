@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do webapp</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+
+        <h1 class="todo-title">TODO LIST</h1>
+
+        <button class="js-log-out-btn log-out-btn">Log out</button>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="todo-hero">
+      <div class="container">
+        <div class="todo-hero-inner">
+          <form class="js-todo-form todo-form" method="POST" autocomplete="off">
+            <input class="js-todo-text todo-inp" name="user_todos" type="text" aria-label="Enter your tasks"
+              placeholder="Enter your task">
+            <button class="add-task-btn todo-btn" type="submit">Add task</button>
+
+
+          </form>
+
+          <ol class="js-todo-list todo-list">
+
+
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
